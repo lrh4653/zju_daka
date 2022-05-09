@@ -7,7 +7,7 @@
 ## config.yaml
 * 本页面主要配置用户名(user)，密码(pass)，打卡时间(time)，打卡成功后提示语(cont)，firefox profile路径（后续讲这是什么？）
 * 各参数修改时，切勿漏掉引号，必须保留引号
-* 时间格式："hh:mm"。如01:23
+* 时间格式："hh:mm"。如01:23(指的是每天几点钟打卡）
 ## geckodriver
 * windows用户：将geckodriver放至C:\Windows
 * linux用户：将geckodriver.exe放至/usr/bin
