@@ -45,14 +45,14 @@ def job(user,pasw,cont,prof):
         ss=time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
         print(ss) 
 
-with open('config.yaml') as f:
-                fil=yaml.load(f,Loader=yaml.FullLoader)
-                user=fil['user']
-                pasw=fil['pass']
-                shij=fil['time']
-                cont=fil['cont']
-		prof=fil['prof']
-schedule.every().day.at(shij).do(job(user,pasw,cont,prof))
+with open('config.yaml',encoding='utf-8') as f:
+        fil=yaml.load(f,Loader=yaml.FullLoader)
+        user=fil['user']
+        pasw=fil['pass']
+        shij=fil['time']
+        cont=fil['cont']
+        prof=fil['prof']
+schedule.every().day.at(shij).do(job,user=user,pasw=pasw,cont=cont,prof=prof)
 # job()
 while True:
     schedule.run_pending()
