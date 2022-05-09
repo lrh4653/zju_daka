@@ -1,10 +1,10 @@
 # 用户名
-user: '22031072'
+user: '12345678'
 # 密码
-pass: 'zju290733'
+pass: '12345678'
 # 打卡时间
-time: '11:51'
+time: '01:23'
 # 打卡成功后输出内容
 cont: 'success!'
 # 火狐配置文件
-prof: '/home/lrh/.mozilla/firefox/qi118h44.auto'
+prof: '/home/jack/.mozilla/firefox/qi118h44.auto'
