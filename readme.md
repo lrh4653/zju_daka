@@ -9,8 +9,8 @@
 * 各参数修改时，切勿漏掉引号，必须保留引号
 * 时间格式："hh:mm"。如01:23
 ## geckodriver
-* windows用户：将其放至C:\Windows
-* linux用户：将其放至/usr/bin
+* windows用户：将geckodriver放至C:\Windows
+* linux用户：将geckodriver.exe放至/usr/bin
 ## firefox设置
 1. 打开firefox，在地址栏输入about:profiles
 2. 点击左上角的create a new profile
