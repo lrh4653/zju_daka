@@ -4,6 +4,7 @@
 * location guard定位
 * 需要安装火狐firefox浏览器
 * python实现，要求版本3.6或3.7
+* 若之前已经能够正常运行，更新只需要替换autodaka2.py，其它文件可以使用原来的版本
 ## config.yaml
 * 本页面主要配置用户名(user)，密码(pass)，打卡时间(time)，打卡成功后提示语(cont)，firefox profile路径（后续讲这是什么？）
 * 各参数修改时，切勿漏掉引号，必须保留引号
