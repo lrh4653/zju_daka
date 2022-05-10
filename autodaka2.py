@@ -47,10 +47,10 @@ def job(user,pasw,cont,prof):
                         elem=browser.find_element_by_xpath("//*[@class='wapat-title']")
                         browser.quit()
                         if (count==10):
-                                print("尝试达到10次 依然没有成功 可能版本更新了 ")
+                                print("尝试达到10次 依然没有成功 可能版本更新了 请手动打卡 更新将及时发布(如果可以的话)")
                                 break
                         else:
-                                print("当前尝试失败 自动再来一次 ")
+                                print("当前尝试失败 自动再来一次")
                 except:
                         browser.quit()
                         break
