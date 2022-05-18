@@ -20,14 +20,14 @@ def job(user,pasw,cont,prof):
                 elem.send_keys(pasw)##password
                 browser.find_element_by_xpath("//*[@id='dl']").click()
                 time.sleep(1)
-                elem=browser.find_element_by_xpath("//*[@class='text']/span/img")
-                ocr=ddddocr.DdddOcr()
-                img=elem.screenshot_as_png
-                yanzheng=ocr.classification(img).upper()
-                yanzheng=yanzheng.replace('1','I')
-                yanzheng=yanzheng.replace('0','O')
-                elem=browser.find_element_by_name("verifyCode")
-                elem.send_keys(yanzheng)
+                # elem=browser.find_element_by_xpath("//*[@class='text']/span/img")
+                # ocr=ddddocr.DdddOcr()
+                # img=elem.screenshot_as_png
+                # yanzheng=ocr.classification(img).upper()
+                # yanzheng=yanzheng.replace('1','I')
+                # yanzheng=yanzheng.replace('0','O')
+                # elem=browser.find_element_by_name("verifyCode")
+                # elem.send_keys(yanzheng)
                 # elem=browser.find_elements_by_xpath("//*[@class='wapat-btn wapat-btn-ok']")[0].click()
                 # browser.execute_script("document.getElementsByName('ip')[0].style.display = 'inline';") 
                 # elem=browser.find_element_by_xpath("//*[@class='hcqbtn hcqbtn-danger']/option[13]").click()
