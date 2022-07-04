@@ -36,6 +36,7 @@ def job(user,pasw,cont,prof):
                 # elem=browser.find_element_by_xpath("//*[@class='hcqbtn hcqbtn-primary']/option[6]").click()
                 elem=browser.find_elements_by_xpath("//*[@name='sfzx']/div/div/span")[0].click()
                 elem=browser.find_elements_by_xpath("//*[@name='sfqrxxss']/div/div/span")[0].click()
+                elem=browser.find_elements_by_xpath("//*[@name='internship']/div/div")[2].click()
                 # elem=browser.find_elements_by_xpath("//*[@name='sfymqjczrj']/div/div/span")[2].click()
                 time.sleep(1)
                 elem=browser.find_element_by_xpath("//*[@name='area']/input[@type='text']").click()
@@ -66,7 +67,8 @@ with open('config.yaml',encoding='utf-8') as f:
         cont=fil['cont']
         prof=fil['prof']
 schedule.every().day.at(shij).do(job,user=user,pasw=pasw,cont=cont,prof=prof)
-# job(user,pasw,cont,prof)
+#job(user,pasw,cont,prof)
 while True:
     schedule.run_pending()
     time.sleep(1)
+
