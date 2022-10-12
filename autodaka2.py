@@ -37,7 +37,7 @@ def job(user,pasw,cont,prof):
                 elem=browser.find_elements_by_xpath("//*[@name='sfzx']/div/div/span")[0].click()
                 elem=browser.find_elements_by_xpath("//*[@name='sfqrxxss']/div/div/span")[0].click()
                 elem=browser.find_elements_by_xpath("//*[@name='internship']/div/div")[2].click()
-                # elem=browser.find_elements_by_xpath("//*[@name='sfymqjczrj']/div/div/span")[2].click()
+                elem=browser.find_elements_by_xpath("//*[@name='sfymqjczrj']/div/div")[1].click()
                 time.sleep(1)
                 elem=browser.find_element_by_xpath("//*[@name='area']/input[@type='text']").click()
                 time.sleep(1)
