@@ -1,6 +1,6 @@
 import time
 import schedule
-import ddddocr
+# import ddddocr
 from selenium import webdriver
 import yaml
 def job(user,pasw,cont,prof):
@@ -35,11 +35,8 @@ def job(user,pasw,cont,prof):
                 # time.sleep(2)
                 # elem=browser.find_element_by_xpath("//*[@class='hcqbtn hcqbtn-primary']/option[6]").click()
                 elem=browser.find_elements_by_xpath("//*[@name='sfzx']/div/div/span")[0].click()
-                elem=browser.find_elements_by_xpath("//*[@name='sfqrxxss']/div/div/span")[0].click()
-                elem=browser.find_elements_by_xpath("//*[@name='internship']/div/div")[2].click()
-                elem=browser.find_elements_by_xpath("//*[@name='sfymqjczrj']/div/div")[1].click()
-                time.sleep(1)
-                elem=browser.find_element_by_xpath("//*[@name='area']/input[@type='text']").click()
+                # elem=browser.find_elements_by_xpath("//*[@name='sfqrxxss']/div/div/span")[0].click()
+                # elem=browser.find_elements_by_xpath("//*[@name='sfymqjczrj']/div/div")[1].click()
                 time.sleep(1)
                 elem=browser.find_elements_by_xpath("//*[@class='footers']/a")[0].click()
                 time.sleep(2)

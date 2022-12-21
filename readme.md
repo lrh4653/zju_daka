@@ -12,7 +12,7 @@
 ## geckodriver
 * windows用户：将geckodriver.exe放至C:\Windows
 * linux用户：将geckodriver放至/usr/bin
-## firefox设置
+## firefox设置（20221221更新：因定位已取消，可跳过该步骤）
 1. 打开firefox，在地址栏输入about:profiles
 2. 点击左上角的create a new profile
 3. 点击next
@@ -34,4 +34,5 @@
 * 20220518更新：验证码模块取消
 * 20220704更新：加入外出实习选项（默认选否）
 * 20221012更新：加入同住人员信息选项（默认选否）
+* 20221221更新：取消定位，仅需填是否在校（默认选是）
 
